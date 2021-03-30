@@ -33,6 +33,7 @@ body {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
+  font-size: 18px;
 }
 .task-row-wrapper {
   display: flex;
@@ -124,8 +125,8 @@ li > input[type="checkbox"] {
   font-size: 18px;
   width: 226px;
 }
-.incomplete-item__new-lable
-.complete-item__new-lable{
+.incomplete-item__new-label
+.complete-item__new-label{
   width: 226px;
 }
 .delete:hover {
