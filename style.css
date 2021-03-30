@@ -29,7 +29,7 @@ body {
   width: 500px;
   margin: 0 auto 0;
 }
-.incomplete-item__label {
+.task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -38,7 +38,7 @@ body {
   display: flex;
 }
 .incomplete-tasks,
-.completed-tasks {
+.completed{
   margin: 0;
   padding: 0px;
 }
@@ -141,7 +141,7 @@ li > input[type="checkbox"] {
 }
 
 /* Completed */
-.complete-item__label{
+.complete{
   text-decoration: line-through;
   color: #888;
 }

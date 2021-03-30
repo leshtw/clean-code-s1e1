@@ -21,7 +21,7 @@
     <section id="adding">
       <label class="adding__label" for="new-task">Add Item</label>
       <div class="task-row-wrapper">
-        <input id="new-task" class="adding__task" type="text">
+        <input id="new-task" class="adding__task task" type="text">
         <button class="adding__button">Add</button>
       </div>
     </section>
@@ -29,8 +29,8 @@
     <ul id="incomplete-tasks" class="incomplete-tasks">
       <li class="incomplete-item">
         <input type="checkbox">
-        <label class="incomplete-item__label">Pay Bills</label>
-        <input class="incomplete-item__new-lable task" type="text">
+        <label class="incomplete-item__labe task">Pay Bills</label>
+        <input class="incomplete-item__new-lable " type="text">
         <button class="edit">Edit</button>
         <button class="delete">
           <img class="delete__image" src="./remove.svg" alt="">
@@ -38,7 +38,7 @@
       </li>
       <li class="edit-mode incomplete-item">
         <input type="checkbox">
-        <label class="incomplete-item__label">Go Shopping</label>
+        <label class="incomplete-item__label ">Go Shopping</label>
         <input type="text" value="Go Shopping" class="incomplete-item__new-lable task">
         <button class="edit">Save</button>
         <button class="delete">
@@ -50,7 +50,7 @@
     <ul id="completed" class="completed">
       <li class="completed__item">
         <input type="checkbox" checked>
-        <label class="complete-item__label">See the Doctor</label>
+        <label class="complete-item__label task">See the Doctor</label>
         <input type="text" class="complete-item__new-lable task">
         <button class="edit">Edit</button>
         <button class="delete">
