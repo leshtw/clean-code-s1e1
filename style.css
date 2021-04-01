@@ -35,7 +35,7 @@
   flex-grow: 1;
   font-size: 18px;
 }
-.task-row-wrapper {
+.adding__wrapper {
   display: flex;
 }
 .incomplete,
@@ -123,14 +123,14 @@
   margin: 0 10px;
 }
 .incomplete__item__label,
-.complete__item-label {
+.completed__item__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 .incomplete__item__new-label
-.complete__item__new-label {
+.completed__item__new-label {
   width: 226px;
 }
 .delete:hover {
@@ -162,6 +162,7 @@
   width: 224px;
 }
 
-.edit-mode .incomplete__item__label {
+.edit-mode .incomplete__item__label,
+.edit-mode .completed__item__label {
   display: none;
 }
